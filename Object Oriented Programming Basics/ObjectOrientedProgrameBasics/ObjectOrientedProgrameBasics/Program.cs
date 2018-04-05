@@ -4,10 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Classes_And_Objects
+namespace ObjectOrientedProgrameBasics
 {
-    public class Person
+    class Program
     {
-
+        static void Main(string[] args)
+        {
+        }
     }
 }

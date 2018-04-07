@@ -6,13 +6,8 @@ using System.Threading.Tasks;
 
 namespace Fields
 {
-    class Program
+    class Sample
     {
-        static void Main(string[] args)
-        {
-            Sample sample = new Sample();
-            sample.number = 5;
-
-        }
+        public int number;
     }
 }

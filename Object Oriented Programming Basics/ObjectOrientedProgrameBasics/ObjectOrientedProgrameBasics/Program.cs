@@ -31,14 +31,7 @@ namespace ObjectOrientedProgrameBasics
             superPerson.Talk();
             superPerson.Sleep();
             superPerson.Fly();
-
-
-
-
-
-
-
-
+   
         }
     }
 }

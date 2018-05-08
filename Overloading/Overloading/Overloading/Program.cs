@@ -10,8 +10,8 @@ namespace Overloading
     {
         static void Main(string[] args)
         {
-            Person person1 = new Person("George", "Dennis");
-            Person person2 = new Person("George", "Alexander", 21);
+            Person person1 = new Person("George", "", "Dennis");
+            Person person2 = new Person("George", "", "Alexander", 21);
 
             Console.WriteLine(person1.GetFullname());
             Console.WriteLine(person1.GetFullnameWithAge(21));

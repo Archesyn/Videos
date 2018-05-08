@@ -9,17 +9,20 @@ namespace Overloading
     class Person
     {
         private string _firstname;
+        private string _middlename;
         private string _lastname;
         private int _age = 21;
-        public Person(string firstname, string lastname)
+        public Person(string firstname, string middlename, string lastname)
         {
             _firstname = firstname;
+            _middlename = middlename;
             _lastname = lastname;
         }
-        public Person(string firstname, string lastname, int age)
+        public Person(string firstname, string middlename, string lastname, int age)
         {
             _firstname = firstname;
             _lastname = lastname;
+            _middlename = middlename;
             _age = age;
         }
         public string GetFullname()
